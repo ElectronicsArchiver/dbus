@@ -15,7 +15,7 @@ The "and coordination" part is important; D-Bus provides a bus daemon that does 
  - start services on demand
  - support single-instance applications
 
-See http://www.freedesktop.org/software/dbus/ for lots of documentation, 
+See http://www.freedesktop.org/software/dbus/ for lots of documentation,
 mailing lists, etc.
 
 See also the file CONTRIBUTING.md for notes of interest to developers
@@ -80,18 +80,18 @@ Development snapshots make no ABI stability guarantees for new ABI
 introduced since the last stable release. Development snapshots are
 likely to have more bugs than stable releases, obviously.
 
-Configuration 
+Configuration
 ===
 
-dbus could be build by using autotools or cmake. 
+dbus could be build by using autotools or cmake.
 
-When using autotools the configure step is initiated by running ./configure 
+When using autotools the configure step is initiated by running ./configure
 with or without additional configuration flags. dbus requires GNU Make
 (on BSD systems, this is typically called gmake) or a "make" implementation
 with compatible extensions.
 
-When using cmake the configure step is initiated by running the cmake 
-program with or without additional configuration flags. 
+When using cmake the configure step is initiated by running the cmake
+program with or without additional configuration flags.
 
 Configuration flags
 ===
@@ -101,7 +101,7 @@ configuration options and environment variables.
 
 When using cmake, inspect README.cmake to see the possible
 configuration options and environment variables.
-    
+
 API/ABI Policy
 ===
 
@@ -109,13 +109,13 @@ Now that D-Bus has reached version 1.0, the objective is that all
 applications dynamically linked to libdbus will continue working
 indefinitely with the most recent system and session bus daemons.
 
- - The protocol will never be broken again; any message bus should 
+ - The protocol will never be broken again; any message bus should
    work with any client forever. However, extensions are possible
    where the protocol is extensible.
 
- - If the library API is modified incompatibly, we will rename it 
-   as in http://ometer.com/parallel.html - in other words, 
-   it will always be possible to compile against and use the older 
+ - If the library API is modified incompatibly, we will rename it
+   as in http://ometer.com/parallel.html - in other words,
+   it will always be possible to compile against and use the older
    API, and apps will always get the API they expect.
 
 Interfaces can and probably will be _added_. This means both new
