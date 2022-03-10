@@ -10,6 +10,8 @@
 
 ---
 
+<br>
+
 ## Topics
 
 **[<kbd> Introduction </kbd>](#Introduction)** 
@@ -25,6 +27,8 @@
 
 ---
 
+<br>
+
 ## Introduction
 
 **D-Bus** is a simple system for ***inter-process communication*** and ***coordination***.
@@ -35,7 +39,11 @@ the form of a `bus daemon` that can:
 - Support single-instance apps
 - Notify others when an app exits
 
+<br>
+
 ---
+
+<br>
 
 ## Use Cases
 
@@ -49,7 +57,11 @@ may still be useful, but only by accident.
 
 For more information, check our the **[Specification][Specification]** / **[FAQ][FAQ]**
 
+<br>
+
 ---
+
+<br>
 
 ## Security
 
@@ -79,7 +91,11 @@ We do not currently consider **D-Bus** on **Windows** <br>
 to be security-supported and do not recommend <br>
 allowing untrusted users to access it via **TCP**.
 
+<br>
+
 ---
+
+<br>
 
 ## API Levels
 
@@ -107,7 +123,11 @@ The main **D-Bus Package** contains:
 Think of the low-level API as analogous to **Xlib** or **GDI**, <br>
 and the high-level API as analogous to **Qt** / **GTK+** / **HTML**.
 
+<br>
+
 ---
+
+<br>
 
 ## Versioning
 
@@ -128,7 +148,11 @@ These version make no ***ABI Stability Guarantees*** <br>
 for new **ABI** introduced since the previous stable <br>
 release and are likely to have more bugs.
 
+<br>
+
 ---
+
+<br>
 
 ## Configuration
 
@@ -180,7 +204,11 @@ cmake
 Check the [`README.cmake`][CMake] file for <br>
 available configuration options.
 
+<br>
+
 ---
+
+<br>
 
 ## Stability
 
@@ -259,7 +287,11 @@ from the main **D-Bus Package**, and have their own:
 
 *Please consult the documentation for your binding.*
 
+<br>
+
 ---
+
+<br>
 
 ## Bootstrapping
 
