@@ -13,6 +13,7 @@
 ## Topics
 
 **[<kbd> Introduction </kbd>](#Introduction)** 
+**[<kbd> Use Cases </kbd>](#Use-Cases)** 
 **[<kbd> API Levels </kbd>](#API-Levels)** 
 **[<kbd> Versioning </kbd>](#Versioning)**
 
