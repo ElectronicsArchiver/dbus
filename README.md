@@ -317,16 +317,15 @@ have built both **D-Bus** and **GLib** at least once.
 
 <!----------------------------------------------------------------------------->
 
-[Website]: http://www.freedesktop.org/software/dbus/
-[Contribute]: ./CONTRIBUTING.md
 [Specification]: https://dbus.freedesktop.org/doc/dbus-specification.html
+[Mailing List]: http://lists.freedesktop.org/mailman/listinfo/dbus/
+[Website]: http://www.freedesktop.org/software/dbus/
 [FAQ]: https://dbus.freedesktop.org/doc/dbus-faq.html
-[Authors]: AUTHORS
 
-[Issue]: https://gitlab.freedesktop.org/dbus/dbus/issues/new
-
+[Contribute]: ./CONTRIBUTING.md
+[Authors]: ./AUTHORS
 [CMake]: ./README.cmake
 
 [Renamed]: http://ometer.com/parallel.html
+[Issue]: https://gitlab.freedesktop.org/dbus/dbus/issues/new
 
-[Mailing List]: http://lists.freedesktop.org/mailman/listinfo/dbus/
