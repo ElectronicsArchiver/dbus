@@ -9,6 +9,7 @@
  **[❮ Contribute ❯][Contribute]**
  **[❮ FAQ ❯][FAQ]**
  **[❮ Mailing List ❯][Mailing List]**
+ **[❮ Authors ❯][Authors]**
 
 ---
 
@@ -320,6 +321,7 @@ have built both **D-Bus** and **GLib** at least once.
 [Contribute]: ./CONTRIBUTING.md
 [Specification]: https://dbus.freedesktop.org/doc/dbus-specification.html
 [FAQ]: https://dbus.freedesktop.org/doc/dbus-faq.html
+[Authors]: AUTHORS
 
 [Issue]: https://gitlab.freedesktop.org/dbus/dbus/issues/new
 
