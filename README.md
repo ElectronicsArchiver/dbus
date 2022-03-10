@@ -7,6 +7,8 @@
 
  **[❮ Website ❯][Website]**
  **[❮ Contribute ❯][Contribute]**
+ **[❮ FAQ ❯][FAQ]**
+ **[❮ Mailing List ❯][Mailing List]**
 
 ---
 
