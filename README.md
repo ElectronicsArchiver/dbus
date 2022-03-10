@@ -14,7 +14,8 @@
 
 **[<kbd> Introduction </kbd>](#Introduction)** 
 **[<kbd> API Levels </kbd>](#API-Levels)** 
-**[<kbd> Versioning </kbd>](#Versioning)** 
+**[<kbd> Versioning </kbd>](#Versioning)**
+
 **[<kbd> Configuration </kbd>](#Configuration)** 
 **[<kbd> Stability </kbd>](#Stability)** 
 **[<kbd> Bootstrapping </kbd>](#Bootstrapping)**
@@ -32,6 +33,8 @@ the form of a `bus daemon` that can:
 - Start services on demand
 - Support single-instance apps
 - Notify others when an app exits
+
+---
 
 ## Use Cases
 
@@ -55,6 +58,8 @@ please report it ***privately*** to:
 - Either [`dbus-security@lists.freedesktop.org`](mailto:dbus-security@lists.freedesktop.org)
 - Or as a **[Gitlab Issue][Issue]** and mark it as `confidential`
 
+<br>
+
 ### On Unix
 
 The **System Bus** *`dbus-daemon --system`* <br>
@@ -64,6 +69,8 @@ The **System Bus** *`dbus-daemon --system`* <br>
 The **Session Bus** *`dbus-daemon --session`* <br>
 *is designed to be used by a single* <br>
 *user and only accessible by that user.*
+
+<br>
 
 ### On Windows
 
